@@ -21,7 +21,7 @@
 PATH=/sbin:/usr/sbin:/bin:/usr/bin
 DESC="Viessmann vcontrold deamon"
 NAME=vcontrold
-DAEMON=/usr/local/sbin/$NAME
+DAEMON=/usr/sbin/$NAME
 #DAEMON_ARGS="--options args"
 DAEMON_ARGS=""
 PIDFILE=/var/run/$NAME.pid
